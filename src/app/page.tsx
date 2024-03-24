@@ -1,8 +1,24 @@
-import Image from 'next/image';
 import styles from './page.module.css';
+import P5Sketch from './P5Sketch';
 
-export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello World!</h1>;
+export default function Home() {
+  return (
+    <main className={styles.main}>
+      <div className="size-full min-h-screen bg-landing bg-cover bg-center rounded-md">
+        <div className="center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+          consectetur nec nulla et imperdiet. Fusce venenatis nisi augue, vel
+          luctus mi mollis nec. Cras tristique enim nunc, id imperdiet erat
+          imperdiet at. Phasellus cursus dictum odio, id scelerisque felis
+          ultrices eu. Nulla ultricies, ex sit amet placerat condimentum, purus
+          lorem tincidunt sapien, congue semper mi dolor a risus. Aliquam est
+          diam, rutrum ut luctus ac, lobortis eget sapien. Proin in nibh cursus,
+          porttitor neque lobortis, tincidunt risus.
+        </div>
+      </div>
+      <P5Sketch />
+    </main>
+  );
 }
 
 // export default function Home() {
@@ -10,7 +26,7 @@ export default function App() {
 //     <main className={styles.main}>
 //       <div className={styles.description}>
 //         <p>
-//           Get started by editing&nbsp;
+//           Get started by editing{' '}
 //           <code className={styles.code}>src/app/page.tsx</code>
 //         </p>
 //         <div>
@@ -19,7 +35,7 @@ export default function App() {
 //             target="_blank"
 //             rel="noopener noreferrer"
 //           >
-//             By{" "}
+//             By
 //             <Image
 //               src="/vercel.svg"
 //               alt="Vercel Logo"
