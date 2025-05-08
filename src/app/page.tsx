@@ -1,22 +1,19 @@
 import styles from './page.module.css';
-import P5Sketch from './P5Sketch';
+// import P5Sketch from './P5Sketch';
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className="size-full min-h-screen bg-landing bg-cover bg-center rounded-md">
         <div className="center">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-          consectetur nec nulla et imperdiet. Fusce venenatis nisi augue, vel
-          luctus mi mollis nec. Cras tristique enim nunc, id imperdiet erat
-          imperdiet at. Phasellus cursus dictum odio, id scelerisque felis
-          ultrices eu. Nulla ultricies, ex sit amet placerat condimentum, purus
-          lorem tincidunt sapien, congue semper mi dolor a risus. Aliquam est
-          diam, rutrum ut luctus ac, lobortis eget sapien. Proin in nibh cursus,
-          porttitor neque lobortis, tincidunt risus.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur nec nulla et imperdiet. Fusce
+          venenatis nisi augue, vel luctus mi mollis nec. Cras tristique enim nunc, id imperdiet erat imperdiet at.
+          Phasellus cursus dictum odio, id scelerisque felis ultrices eu. Nulla ultricies, ex sit amet placerat
+          condimentum, purus lorem tincidunt sapien, congue semper mi dolor a risus. Aliquam est diam, rutrum ut luctus
+          ac, lobortis eget sapien. Proin in nibh cursus, porttitor neque lobortis, tincidunt risus.
         </div>
       </div>
-      <P5Sketch />
+      {/* <P5Sketch /> */}
     </main>
   );
 }
